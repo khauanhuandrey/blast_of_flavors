@@ -1,4 +1,4 @@
-import "./styles.sass";
+import "./styles/styles.sass";
 import Logo from "../../assets/images/blast_logo.png";
 import CartIcon from "../../assets/icons/cart.svg";
 import { Link } from "react-router-dom";
