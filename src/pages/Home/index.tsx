@@ -1,3 +1,11 @@
+import { About } from "../../components/About";
+import { Banner } from "../../components/Banner";
+
 export const Home = () => {
-  return <div style={{ color: "#000" }}>Home</div>;
+  return (
+    <>
+      <Banner />
+      <About />
+    </>
+  );
 };

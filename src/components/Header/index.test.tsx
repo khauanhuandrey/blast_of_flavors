@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Navigation } from "react-router-dom";
-import { Header } from "./Header";
+import { Header } from ".";
 
 test("Should logo image be on the page", () => {
   render(
