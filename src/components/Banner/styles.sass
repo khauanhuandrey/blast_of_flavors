@@ -1,0 +1,61 @@
+.banner-container
+    // border: 1px solid green
+    // background: #ffb5d5
+    background-image: linear-gradient(#fdbed9, #fff);
+    width: 100%
+    padding: 0 5rem
+    margin: o auto
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 1rem
+
+    .banner-description
+        width: 100%
+        padding: 0.75rem
+        // border: 1px solid green
+
+        @media (min-width: 768px)
+            width: 50%
+
+        h2
+            margin-bottom: 1.5rem
+            font-size: 2.25rem
+            line-height: 2.5rem
+            font-weight: bold
+            color: #2c1308
+
+        p
+            font-weight: bold
+            font-size: 1rem
+            line-height: 1.75rem
+            color: #2c1308
+            padding: 0.5rem 0
+
+        .btn-container
+            a
+                color: #e40707
+                font-weight: bold
+                padding: 0.75rem
+                text-decoration: none
+
+                &:hover
+                    color: #df2929
+        
+            
+    .banner-image
+        display: flex
+        justify-content: flex-end
+        width: 100%
+        padding: 0.75rem
+        // border: 1px solid blue
+
+        @media (min-width: 768px)
+            width: 60%
+            
+
+        img
+            width: 100%
+            max-height: 24rem
+            border-radius: 8px
