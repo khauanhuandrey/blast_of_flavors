@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import "./styles/styles.sass";
 import Logo from "../../assets/images/blast_logo.png";
-import CartIcon from "../../assets/icons/cart.svg";
-import { Link } from "react-router-dom";
+
+import { motion } from "framer-motion";
 
 export const Header = () => {
   return (
@@ -14,10 +15,14 @@ export const Header = () => {
         </div>
         <div className="nav-menu-wrapper">
           <Link to="/" className="link">
-            Home
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+              Home
+            </motion.div>
           </Link>
           <Link to="#about" className="link">
-            About
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+              About
+            </motion.div>
           </Link>{" "}
         </div>
         <div className="auth-wrapper">
