@@ -1,7 +1,9 @@
 import "./styles.sass";
-import BlastBanner from "../../assets/images/blast_banner.jpg";
 import { Button } from "../elements/Button";
 import { motion } from "framer-motion";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BlastCarousel } from "../Carousel";
 
 export const Banner = () => {
   return (
@@ -16,9 +18,10 @@ export const Banner = () => {
           </motion.div>
         </div>
       </div>
-      <div className="banner-image">
+      {/* <div className="banner-image">
         <img src={BlastBanner} alt="banner" className="blast-banner" />
-      </div>
+      </div> */}
+      <BlastCarousel />
     </div>
   );
 };
